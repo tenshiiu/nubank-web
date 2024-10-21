@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+   --white: #FFFFFF;
+   --black: #000000;
+   --purple-classic: #820AD1;
+   --purple-dark: #2F0549;
+
+   --font: "Montserrat", sans-serif;
+   --font2: "Kanit", sans-serif;
+   --font3: "Inter", sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: var(--font);
+    background: var(--white);
+    overflow-x: hidden;
+}
+
+h1, h2, h3, p {
+  font-family: var(--font3);
+  color: var(--black);
+  font-weight: 500;
+}
+
+a {
+  font-family: var(--font2);
+}

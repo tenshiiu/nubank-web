@@ -1,0 +1,16 @@
+.container {
+    background: var(--black);
+    margin: 0;
+    height: 60px;
+    text-align: center;
+
+    h3 {
+        padding-top: 5px;
+        margin: 0px;
+        color: var(--white);
+    }
+
+    a {
+        color: var(--white);
+    }
+}
