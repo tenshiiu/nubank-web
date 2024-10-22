@@ -16,6 +16,7 @@
         color: var(--white);
         width: 800px;
         font-size: 4rem;
+        font-weight: 500;
     }
 
     h3 {
@@ -55,10 +56,12 @@
         line-height: 40px;
         border: none;
         margin-left: 30px;
-        margin-top: 10px;
-        font-family: var(--font);
+        margin-top: 20px;
         outline: none;
         width: 300px;
+        font-weight: 600;
+        font-family: var(--font);
+        font-size: 0.9rem;
     }
 
     button {
@@ -70,14 +73,13 @@
         margin-top: 48px;
         font-family: var(--font2);
         padding-right: 90px;
-        cursor: block;
-        background: rgba(17, 17, 17, 0.1);
         cursor: not-allowed;
         display: flex; /* Usar flexbox */
         align-items: center; /* Centraliza verticalmente */
         gap: 8px; /* Espaço entre texto e ícone */
         color: rgba(17, 17, 17, 0.2);
-        
+        cursor: block;
+        background: rgba(17, 17, 17, 0.1);
 
         /* Botão Ativado! */
 
@@ -90,6 +92,7 @@
             font-size: 1rem;
             padding-left: 10px;
             width: 100px;
+            font-weight: 600;
         }
     }
 

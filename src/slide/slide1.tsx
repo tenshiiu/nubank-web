@@ -13,9 +13,7 @@ export function Slide1() {
         
         <div className={styles.card}>
            <h2>Peça sua conta e cartão de crédito Nubank</h2> 
-
-            <label htmlFor="cpf">Digite seu CPF</label>
-            <input type="text" id="cpf" placeholder="Digite aqui"/>
+            <input type="text" id="cpf" placeholder="Digite seu CPF"/>
             <div className={styles.line}></div>
             <button><p>Continuar</p> <IoArrowForwardSharp className={styles['arrow-right']}/></button>
         </div>
