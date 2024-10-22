@@ -1,15 +1,17 @@
 .container {
+    width: 100%;
+    
     position: fixed;
-    width: 100%; 
-    background-color: white;
     display: flex;
-    align-items: center; /* Centraliza verticalmente */
-    border: 1px solid #D3D3D3; /* 2px de largura, sólido e preto */
+    align-items: center;
+    
+    border: 1px solid #D3D3D3;
 
     nav {
         a {
             float: right;
             color: var(--purple-classic);
+            
             text-decoration: none;
             font-family: var(--font2);
             font-size: 1.6rem;
@@ -21,16 +23,20 @@
     padding-left: 8px;
     padding-bottom: 10px;
     margin: 10px;
+    
     color: var(--black);
+    
     text-decoration: none;
     font-family: var(--font3);
     font-size: 1.1rem;
-    align-items: center;
     font-weight: 600;
+
+    align-items: center;
 }
 
 .container-img {
     align-items: center;
+    
     margin: 10px;
     margin-left: 30px;
 

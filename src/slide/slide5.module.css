@@ -10,10 +10,12 @@
 
     h1 {
         padding: 50px;
-        color: var(--black);
-        font-family: var(--font3);
-        font-size: 3.6rem;
         width: 750px;
+
+        color: var(--black);
+        
+        font-family: var(--font3);
+        font-size: 3.6rem;   
     }
 }
 
@@ -26,17 +28,19 @@
     }
 
     h2 {
-        font-size: 1.8rem;
         color: var(--black);
-        font-family: var(--font3);
         width: 450px;
-        font-weight: 600;
+
+        font-size: 1.8rem;
+        font-family: var(--font3);
+        font-weight: 600;        
     }
 
     p {
-        font-size: 1.3rem;
         width: 380px;
         padding-left: 43px;
+
+        font-size: 1.3rem;
         font-family: var(--font3);
     }
 }
@@ -44,12 +48,14 @@
 .icons-first {
     padding-top: 55px;
     padding-left: 43px;
+    
     width: 25px;
     height: 25px;
 }
 
 .icons {
     padding-left: 43px;
+    
     width: 25px;
     height: 25px;
 }

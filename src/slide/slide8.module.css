@@ -3,10 +3,11 @@
 }
 
 .container-light {
-    padding-top: 17px;
-    background: var(--purple-classic);
     width: 50%;
     height: 800px;
+    background: var(--purple-classic);
+
+    padding-top: 17px;
 
     h1 {
         color: var(--white);
@@ -15,8 +16,9 @@
 
     h3 {
         color: var(--white);
-        padding-left: 46px;
         width: 520px;
+
+        padding-left: 46px;
         font-size: 1.3rem;
     }
 
@@ -34,11 +36,12 @@
 }
 
 .container-dark {
+    width: 50%;
+    height: 800px;
+
     padding-top: 17px;
     background: var(--purple-dark);
     color: var(--white);
-    width: 50%;
-    height: 800px;
 
     h1 {
         color: var(--white);
@@ -46,16 +49,18 @@
     }
 
     h3 {
-        color: var(--white);
-        padding-left: 46px;
-        width: 520px;
         font-size: 1.3rem;
+        color: var(--white);
+        width: 520px;
+
+        padding-left: 46px;
     }
 
     img {
-        padding: 47px;
         width: 750px;
         height: 450px;
+
+        padding: 47px;
     }
 
     a {

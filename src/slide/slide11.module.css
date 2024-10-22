@@ -6,6 +6,7 @@
     background-image: url("../assets/slide-11-1.jpg"); 
     background-size: cover; 
     background-position: center; 
+    
     height: 100vh; 
     align-items: center;
     color: var(--white);
@@ -15,9 +16,11 @@
 
         h1 {
             color: var(--white);
-            font-size: 3.4rem;
             width: 800px;
+
+            font-size: 3.4rem;
             font-weight: 600;
+            
             padding-left: 230px;
         }
     }
@@ -36,6 +39,7 @@
     background-image: url("../assets/slide-11-2.jpg"); 
     background-size: cover; 
     background-position: center; 
+    
     height: 100vh; 
     align-items: center;
     color: var(--white);
@@ -45,9 +49,11 @@
 
         h1 {
             color: var(--white);
-            font-size: 3.4rem;
             width: 800px;
+
+            font-size: 3.4rem;
             font-weight: 600;
+            
             padding-left: 230px;
         }
     }
@@ -66,6 +72,7 @@
     background-image: url("../assets/slide-11-3.jpg"); 
     background-size: cover; 
     background-position: center; 
+    
     height: 100vh; 
     align-items: center;
     color: var(--white);
@@ -75,9 +82,11 @@
 
         h1 {
             color: var(--white);
-            font-size: 3.4rem;
             width: 800px;
+
+            font-size: 3.4rem;
             font-weight: 600;
+            
             padding-left: 230px;
         }
     }

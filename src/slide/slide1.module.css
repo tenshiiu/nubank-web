@@ -2,9 +2,12 @@
     background-image: url("../assets/background-initial.webp"); 
     background-size: cover; 
     background-position: center; 
+
     height: 100vh; 
+
     display: flex;
     align-items: center;
+
     color: var(--white);
 }
 
@@ -14,6 +17,7 @@
 
     h1 {
         color: var(--white);
+
         width: 800px;
         font-size: 4rem;
         font-weight: 500;
@@ -21,6 +25,7 @@
 
     h3 {
         color: var(--white);
+
         padding-left: 46px;
         width: 769px;
         font-size: 1.3rem;
@@ -36,17 +41,21 @@
 .card {
     background: var(--white);
     border-radius: 21px;
+
     width: 355px;
     height: 350px;
     float: right;
+
     margin-left: 400px;
     display: block;
 
      h2 {
         padding-left: 20px;
         padding-top: 20px;
+
         width: 320px;
         height: 58px;
+
         color: var(--black);
     }
 
@@ -54,11 +63,14 @@
         background: var(--white);
         align-items: center;
         line-height: 40px;
+
         border: none;
         margin-left: 30px;
         margin-top: 20px;
         outline: none;
+        
         width: 300px;
+        
         font-weight: 600;
         font-family: var(--font);
         font-size: 0.9rem;
@@ -68,15 +80,19 @@
         border: 0;
         width: 280px;
         height: 56px;
+        
         border-radius: 30px;
         margin-left: 37px;
+        
         margin-top: 48px;
         font-family: var(--font2);
         padding-right: 90px;
+        
         cursor: not-allowed;
         display: flex; /* Usar flexbox */
         align-items: center; /* Centraliza verticalmente */
         gap: 8px; /* Espaço entre texto e ícone */
+        
         color: rgba(17, 17, 17, 0.2);
         cursor: block;
         background: rgba(17, 17, 17, 0.1);
@@ -89,15 +105,17 @@
 
         p {
             color: rgba(17, 17, 17, 0.2);
-            font-size: 1rem;
+            
             padding-left: 10px;
             width: 100px;
             font-weight: 600;
+            font-size: 1rem;
         }
     }
 
     label {
         color: var(--black);
+
         padding-left: 25px;
         margin-right: 20px;
     }
@@ -105,15 +123,18 @@
 
 h1 {
     color: var(--white);
+
     width: 1000px;
     padding-left: 30px;
     display: block;
+
     margin: 16px;
     font-size: 4.2rem;
 }
 
 h2 {
     color: var(--white);
+    
     width: 800px;
     padding-left: 44px;
 }

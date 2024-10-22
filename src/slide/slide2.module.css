@@ -11,33 +11,41 @@ section {
 .card {
     margin-top: 70px;
     margin-bottom: 50px;
+    
     align-items: center;
     justify-content: center;
+    
     background: var(--white);
+    
     width: 320px;
     height: 290px;
+    
     padding-left: 20px;
     padding-top: 20px;
     margin-left: 60px;
     border: 2px solid #f5f5f5; /* 2px de largura, sólido e preto */
     padding: 10px; /* Adiciona espaço interno */
+    
     border-radius: 20px;
 
     h1 {
         margin-top: 5px;
         padding-left: 0px;
-        font-size: 1.8rem;
+        
+        width: 250px;
+        
         color: var(--black);
         font-family: var(--font3);
         font-weight: 600;
-        width: 250px;
+        font-size: 1.8rem;
     }
 
     p {
         font-size: 1.3rem;
         font-family: var(--font3);
-        padding-left: 15px;
         font-weight: 400;
+
+        padding-left: 15px;
     }
 
     a {
@@ -50,6 +58,7 @@ section {
 .icons {
     padding-top: 20px;
     padding-left: 17px;
+    
     width: 30px;
     height: 30px;
 }
