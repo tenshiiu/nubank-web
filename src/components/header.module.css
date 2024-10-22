@@ -4,6 +4,7 @@
     background-color: white;
     display: flex;
     align-items: center; /* Centraliza verticalmente */
+    border: 1px solid #D3D3D3; /* 2px de largura, sólido e preto */
 
     nav {
         a {
