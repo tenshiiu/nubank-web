@@ -14,11 +14,15 @@
 
     h1 {
         color: var(--white);
+        width: 800px;
+        font-size: 4rem;
     }
 
     h3 {
         color: var(--white);
         padding-left: 46px;
+        width: 769px;
+        font-size: 1.3rem;
     }
 }
 
@@ -34,7 +38,7 @@
     width: 355px;
     height: 350px;
     float: right;
-    margin-left: 150px;
+    margin-left: 400px;
     display: block;
 
      h2 {
