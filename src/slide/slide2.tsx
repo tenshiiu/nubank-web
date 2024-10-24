@@ -11,7 +11,7 @@ export function Slide2() {
         <section>
 
             <div className={styles.container}>
-                <div className={styles.card}>
+                <div className={styles.cardfirst}>
                     <GiReceiveMoney className={styles.icons}/>
                     
                         <h1>Empréstimo</h1>

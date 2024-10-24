@@ -13,7 +13,7 @@ export function Slide6() {
             </div>
 
             <main className={styles['container-carrossel']}>
-                <div>
+                <div className={styles['container-info-first']}>
                     <img src={Img1} alt="" />
                   <h2>Empréstimos</h2>
                   <p>Transparentes, seguros e do seu jeito: da simulação até a última parcela</p>
@@ -21,7 +21,7 @@ export function Slide6() {
                     <a href="#">Saiba mais <MdOutlineArrowOutward /></a>
                   </nav>
                 </div>
-                <div>
+                <div className={styles['container-info-carrossel']}>
                     <img src={Img2} alt="" />
                   <h2>Seguro de vida</h2>
                   <p>Seguro para proteger você e quem você mais ama: agora e no futuro.</p>
@@ -29,7 +29,7 @@ export function Slide6() {
                     <a href="#">Saiba mais <MdOutlineArrowOutward /></a>
                   </nav>
                 </div>
-                <div>
+                <div className={styles['container-info-carrossel']}>
                     <img src={Img3} alt="" />
                   <h2>Seguro celular</h2>
                   <p>Para você não ficar sem curtir seu celular e tudo que você pode fazer com ele.</p>

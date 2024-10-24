@@ -5,11 +5,12 @@
     height: 600px;
     
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .container-img {
-    padding-top: 115px;
-    padding-left: 50px;
+    margin-right: 10rem;
 
     img {
         width: 580px;
@@ -18,13 +19,11 @@
 }
 
 .container-info {
-    padding-top: 150px;
 
     h1 {
         color: var(--white);
 
         font-size: 3.5rem;
-        padding-left: 70px;
         
         width: 800px;
     }
@@ -34,14 +33,13 @@
 
         width: 700px;
         
-        padding-top: 10px;
-        padding-bottom: 32px;
-        padding-left: 90px;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem; 
+        
     }
 
     a {
-        padding-left: 90px;
+        padding-left: 2.8rem;
         color: var(--white);
-        margin-top: 20px;
     }
 }

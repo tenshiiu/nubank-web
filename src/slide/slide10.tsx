@@ -22,14 +22,14 @@ export function Slide10() {
                         <a className={styles.link} href="#">Ler artigo <MdOutlineArrowOutward /></a>
                 </div>
 
-                <div>
+                <div className={styles['container-carrossel-info']}>
                     <img src={Img2} alt="" />
                         <p>Empréstimo</p>
                         <h2>Como fazer empréstimo no Nubank? Confira dicas para escolher o crédito certo para você</h2>
                         <a className={styles.link} href="#">Ler artigo <MdOutlineArrowOutward /></a>
                 </div>
 
-                <div>
+                <div className={styles['container-carrossel-info']}>
                     <img src={Img3} alt="" />
                         <p>N Possibilidades</p>
                         <h2>10 situações da sua vida que o Nubank te ajuda a resolver com N Possibilidades</h2>

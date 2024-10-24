@@ -3,22 +3,22 @@
     background-size: cover; 
     background-position: center; 
 
-    height: 100vh; 
+    height: 67rem; 
 
     display: flex;
     align-items: center;
+    justify-content: center;
 
     color: var(--white);
 }
 
 .container-info {
-    display: block;
-    padding-left: 30px;
+    padding-left: 1,875rem;
 
     h1 {
         color: var(--white);
 
-        width: 800px;
+        width: 50rem;
         font-size: 4rem;
         font-weight: 500;
     }
@@ -34,7 +34,7 @@
 
 .line {
     border-top: 2px solid #D3D3D3;
-    width: 300px;
+    width: 19rem;
     margin-left: 25px;
 }
 
